@@ -1,0 +1,158 @@
+/* Existing styles... */
+
+.upload-button {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.upload-button input {
+  position: absolute;
+  font-size: 100px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+/* Existing styles... */
+
+.icon {
+  font-size: 20px;
+  color: #007bff; /* Color same as voice recording icon */
+  cursor: pointer;
+}
+
+.upload-button {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.upload-button input {
+  position: absolute;
+  font-size: 100px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+
+.upload-button .icon {
+  cursor: pointer;
+}
+
+
+.upload-button .fa-file-upload {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.chatbot-container {
+  max-width: 400px; /* Adjust as needed */
+  margin: auto;
+  background-color: #fff; /* Background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  padding: 20px;
+}
+
+
+.chatbot-messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+.bot {
+  background-color: #e5e5ea;
+}
+
+.user {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.chatbot-input {
+  display: flex;
+  align-items: center;
+}
+
+.chatbot-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.chatbot-input button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.chatbot-input button:hover {
+  background-color: #0056b3;
+}
+.chatbot-messages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align messages to the left */
+  padding: 10px;
+  height: 300px; /* Adjust height as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.message {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.message.user {
+  align-self: flex-end; /* Align user messages to the right */
+  background-color: #dcf8c6; /* Different color for user messages */
+}
+
+.chatbot-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.input-field {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.send-button,
+.record-button,
+.upload-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.send-button:hover,
+.record-button:hover,
+.upload-button:hover {
+  background-color: #45a049;
+}
